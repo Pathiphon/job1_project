@@ -4,7 +4,7 @@ import { Routes, Route, Link,useLocation } from 'react-router-dom';
 import './App.css';
 
 import LoginIcon from '@mui/icons-material/Login';
-import logolast2 from './image/logo.png';
+import logolast2 from './image/LOGO_NEW2.png';
 import Home from './component/Home';
 import Register from './component/Register';
 import Promotion_page from './component/Promotion_page'
@@ -111,8 +111,9 @@ function App() {
   );
 
   return (
-    <div style={{ backgroundImage: `url(${background})`, backgroundSize: "100%" }} >
-      <div className='mx-auto text-center container'>
+    <div  >
+      <div style={{ backgroundImage: `url(${background})`, backgroundSize: "100%" }}>
+      <div className='mx-auto text-center container' >
                 <marquee className="mx-auto text-white" width="100%" direction="left" >
                     <strong>
                         ** หารายได้ โดยวิธีง่ายๆ เพียงแค่สมัครสมาชิก แล้วส่งลิ้งแนะนำเพื่อนให้เพื่อนสมัครรับไปเลยค่าคอมมิชชั่นกับคืนยอดเสียของเพื่อน(ตั้งแต่วันที่ 1 ถึงสิ้นเดือน ระบบจะโอนให้ทุกวันที่ 2 ของเดือน) **
@@ -141,7 +142,7 @@ function App() {
       </SwipeableDrawer>
                     </div>
                     <div className="col-sm container mx-auto">
-                        <img className="d-block w-50 mx-auto" src={logolast2} alt="Second slide" />
+                        <img className="d-block w-75 mx-auto" src={logolast2} alt="Second slide" />
                     </div>
                     <div className="col-sm mx-auto container text-center">
                         <Button variant="contained" color='primary' className="w-75" target="_blank" component="a" href="https://acc.mm88kickoff.bet/register/" startIcon={<GroupAddIcon />}>
@@ -156,6 +157,7 @@ function App() {
                     </div>
                 </div>
             </div>
+            </div>
       <div className=" w-100" >
 
         <Routes >
@@ -167,6 +169,7 @@ function App() {
           <Route path='/InGame' element={<InGame />} />
         </Routes>
       </div>
+      
     </div>
   );
 }

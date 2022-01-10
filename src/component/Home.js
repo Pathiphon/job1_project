@@ -1,8 +1,11 @@
 import React from 'react'
-import { Button } from '@mui/material';
-import GroupAddIcon from '@mui/icons-material/GroupAdd';
-import LoginIcon from '@mui/icons-material/Login';
-import logolast2 from '../image/logo.png';
+import bg9 from '../image/bg9.png';
+import bg2 from "../image/bg2.jpg";
+import demo1 from '../image/slide-sa-demo.jpg'
+import button1 from '../image/button-sa.png'
+import button2 from '../image/button-sa2.png'
+import logo_new2 from '../image/LOGO_NEW2.png';
+import casino1 from '../image/sport-casino-1.png'
 import logo1 from '../image/test1.png';
 import logo2 from '../image/test2.png';
 import logo3 from '../image/test3.png';
@@ -35,6 +38,41 @@ export default function Home() {
                     <span className="carousel-control-next-icon" aria-hidden="true"></span>
                     <span className="sr-only">Next</span>
                 </a>
+            </div>
+            <div className="w-100 pt-3" style={{ backgroundImage: `url(${bg9})`, backgroundSize: "100%" }}>
+                <div className="card  card_home2 container">
+                    <div className="card-body">
+                        <h5 className="card-title text-center">MM88KICKOFF เว็บเเทงบอลออนไลน์ คาสิโนออนไลน์ บาคาร่าออนไลน์</h5>
+                        <p className="card-text pl-1 pr-1 ">
+                            สมัครเว็บ MM88 เว็บตรงของ MM88 รวบรวมการเดิมพันออนไลน์ทุกอย่างไว้ ในบัญชีการใช้งานเพียงบัญชีเดียว MM88KICKOFF เป็นเว็บตรงของ MM8BET.COM และเป็นเว็บหลักของ MM88 รวบรวมการเดิมพันออนไลน์ทุกอย่างไว้ในบัญชีการใช้งานเพียงบัญชีเดียว จึงมีความมั่นคงเเละปลอดภัย 100% เพราะ MM88KICKOFF.COM เป็นเว็บตรงที่ไม่ผ่านตัวแทนเเละไม่ผ่านเอเยนต์ใดๆ ฝาก-ถอน ด้วยระบบออโต้ตลอด 24ชั่วโมง สมัครเว็บเเทงบอลกับเราซิค่ะ สมัครเว็บบอลเครดิตฟรี mm88 ฝากถอนไม่มีขั้นต่ำ เรามีพนักงานบริการตลอด 24 ชม.เว็บพนันออนไลน์ ที่มาเเรงที่สุดในปี 2021 เว็บเเทงบอลออนไลน์ที่ราคาน้ำดีที่สุดในตอนนี้ เว็บพนันได้เงินจริง ไม่มีการล้มโต๊ะ เล่นจริงจ่ายจริง เเทงบอลไม่มีขั้นต่ำ เชื่อถือได้ 100%
+                        </p>
+                    </div>
+                </div>
+                <div className="text-center pt-2 ">
+                    <img src={casino1} className="rounded img_max" />
+                </div>
+            </div>
+            <div style={{ backgroundImage: `url(${bg2})`, backgroundSize: "100%" }}>
+                <div className='w-100 pt-3 line_cus' >
+                    <h4>Live บาคาร่า</h4>
+                </div>
+                <p className='text-white p-2'>คาสิโนออนไลน์อันดับ 1 ของประเทศไทย คาสิโนออนไลน์เว็บตรงของ mm88bet มีทั้ง SA Gaming เกมคาสิโนยอดนิยมพบกับคาสิโนสด SA บาคาร่า SA ได้รวมคาสิโนสดยอดนิยมไว้ในที่เดียวอิทิ เช่น บาคาร่า , เสือ มังกร , Sic Bo , รูเล็ต, ไฮโล,  ป๊อกเด้ง,  เเบล็กเเจ็ก,  สล็อต777 สมัครสล็อตออนไลน์วันนี้ท่านสามารถเล่น สล็อตออนไลน์มือถือ ไม่ว่าจะเป็น สล็อตออนไลน์777 สล็อตออนไลน์888 หรือ สล็อตที่ได้รับความนิยมสูงสุดตอนนี้ สล็อตjoker เเตกมาเเล้วเป็นล้าน ลุ้นกันง่ายๆกับสล็อตออนไลน์ ฝากถอนไม่มีขั้นต่ำกับเว็บสล็อตออนไลน์ที่นี้ที่เดียว ทดลองเล่นพร้อมเครดิตฟรี  สมัครบาคาร่าเว็บไหนดี บาคาร่า88 บาคาร่า66 บาคาร่า99 บาคาร่าsa บาคาร่า168 ลองเปิดใจสมัครเว็บบาคาร่าmm88 ดูซิค่ะ บาคาร่าเว็บนี้ดีที่สุด เพราะเป็นเว็บบาคาร่าที่คนเล่นเยอะที่สุด บาคาร่าออนไลน์เล่นได้เงินจริง โอนจริงโอนไว สมัครบาคาร่า888 วันนี้เรามีสาวๆ Sexy ทั้งเอเชียเเละยุโรปคอยบริการตลอด 24ชม. กับ sexy baccarat, tiger dragon ฯลฯ</p>
+                <div className="text-center pt-2 " style={{ position: "relative" }}>
+                    <img src={demo1} className="rounded w-100" />
+                    <a target="_blank" href='https://igt.sa-api5.net/h5web/index.html?username=mm88bet_demo&token=519D6F7367EA3D7A8991E3673E08D60C&lang=th&lobby=a232&returnurl=https://mm88bet.com/&net=0&h5web=True&ui=1&options=&bannerURL=https://mm88bet.com/wp-content/uploads/2020/09/bannerload-sa.jpg'>
+                        <img src={button1} className="in_img" />
+                    </a>
+                </div>
+            </div>
+            <div className=" text-white w-100 bgcolor1">
+                <div className="row w-100 container mx-auto">
+                    <div className="col-sm-3 p-3">
+                    <img src={logo_new2} className="rounded w-100" />
+                    </div>
+                    <div className="col-sm-9 p-3">
+                    สมาชิกที่สมัครเปิดยูสเซอร์กับทางเว็บ MM88KICKOFF.COM สมัครเว็บ MM88 สามารถร่วมสนุกผ่านเว็บไซต์ได้ทั้งทางคอม PC และโทรศัพท์มือถือระบบ ios,android ซึ่งเว็บไซต์มีระบบรักษาความปลอดภัยที่เชื่อถือได้ เเละมีมาตรฐานสากลระดับโลก ในการรองรับ เล่นพนันออนไลน์ เรามีทีมงานคุณภาพเเละมีออฟฟิตที่ได้มาตรฐานอยู่ในประเทศเพื่อนบ้าน เพื่อตอบสนองความต้องการของนักเสี่ยงโชคทุกท่าน เรามีบริการ Call center 24 ชม. มีช่องทางการติดต่อ ทั้ง โทรศัพท์ Line Livechat ฉะนั้น MM88BET.COM จึงเป็นเว็บพนันออนไลน์ แทงบอลออนไลน์ แทงสเต็ปออนไลน์ แทงคาสิโนออนไลน์ แทงสล๊อตออนไลน์ แทงหวยออนไลน์ แทงล็อตเตอรี่ออนไลน์ แทงเกมส์ออนไลน์ แทงมวยไทยออนไลน์ แทงบาสเก็ตบอลออนไลน์ แทงเทนนิสออนไลน์ ที่ได้รับความนิยมสูงสุด
+                    </div>
+                </div>
             </div>
         </div>
     )
