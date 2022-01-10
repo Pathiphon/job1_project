@@ -21,13 +21,13 @@ export default function Home() {
                 </ol>
                 <div className="carousel-inner">
                     <div className="carousel-item active ">
-                        <img className="d-block w-50 container" src={logo1} alt="First slide" />
+                        <img className="d-block img_silder container" src={logo1} alt="First slide" />
                     </div>
                     <div className="carousel-item">
-                        <img className="d-block w-50 container" src={logo2} alt="Second slide" />
+                        <img className="d-block img_silder container" src={logo2} alt="Second slide" />
                     </div>
                     <div className="carousel-item">
-                        <img className="d-block w-50 container" src={logo3} alt="Third slide" />
+                        <img className="d-block img_silder container" src={logo3} alt="Third slide" />
                     </div>
                 </div>
                 <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

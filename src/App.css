@@ -40,12 +40,18 @@
 .bgcolor1{
   background-color: #0F1418;
 }
+.img_silder{
+  width: 50%;
+}
 @media (max-width: 600px) {
   .card{
     max-width:100%;
     width: 100%;
     margin: 0px;
     padding: 0px;
+  }
+  .img_silder{
+    width: 100%;
   }
   .container {
     max-width:100%;
