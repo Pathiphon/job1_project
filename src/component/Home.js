@@ -1,9 +1,9 @@
 import React from 'react'
 import bg9 from '../image/bg9.png';
 import bg2 from "../image/bg2.jpg";
+import bg3 from "../image/bg3.jpg";
 import demo1 from '../image/slide-sa-demo.jpg'
 import button1 from '../image/button-sa.png'
-import button2 from '../image/button-sa2.png'
 import logo_new2 from '../image/LOGO_NEW2.png';
 import casino1 from '../image/sport-casino-1.png'
 import logo1 from '../image/test1.png';
@@ -12,22 +12,22 @@ import logo3 from '../image/test3.png';
 
 export default function Home() {
     return (
-        <div className="App w-100" >
-            <div id="carouselExampleIndicators" className="carousel slide w-100 mx-auto" data-ride="carousel">
+        <div className="App w-100" style={{ backgroundImage: `url(${bg3})`, backgroundSize: "100%" }} >
+            <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
                 <ol className="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                 </ol>
                 <div className="carousel-inner">
-                    <div className="carousel-item active">
-                        <img className="d-block w-100" src={logo1} alt="First slide" />
+                    <div className="carousel-item active ">
+                        <img className="d-block w-50 container" src={logo1} alt="First slide" />
                     </div>
                     <div className="carousel-item">
-                        <img className="d-block w-100" src={logo2} alt="Second slide" />
+                        <img className="d-block w-50 container" src={logo2} alt="Second slide" />
                     </div>
                     <div className="carousel-item">
-                        <img className="d-block w-100" src={logo3} alt="Third slide" />
+                        <img className="d-block w-50 container" src={logo3} alt="Third slide" />
                     </div>
                 </div>
                 <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
