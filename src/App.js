@@ -12,6 +12,7 @@ import Promotion_page from './component/Promotion_page'
 import Callcenter from './component/Callcenter'
 import Casino_Game from './component/Casino_Games'
 import InGame from './component/InGame'
+import logo_new2 from './image/LOGO_NEW2.png';
 import GroupAddIcon from '@mui/icons-material/GroupAdd';
 import CardGiftcardIcon from '@mui/icons-material/CardGiftcard';
 import SportsEsportsIcon from '@mui/icons-material/SportsEsports';
@@ -64,7 +65,7 @@ function App() {
           <ListItemText primary="หน้าแรก"/>
         </Link>
         <Divider color='white' />
-        <Link className="textDec text-center" to="/Register" style={{ textDecoration: 'none' }}>
+        <a className="textDec text-center" href='https://acc.mm88kickoff.bet/register/'  target="_blank" style={{ textDecoration: 'none' }}>
           <ListItem button style={{display:'flex', justifyContent:'center'}} >
             <ListItemIcon>
               <GroupAddIcon className="icon_nav mx-auto" />
@@ -72,9 +73,9 @@ function App() {
             
           </ListItem>
           <ListItemText primary="สมัครสมาชิก" />
-        </Link>
+        </a>
         <Divider color='white' />
-        <Link className="textDec text-center" to="/Promotion" style={{ textDecoration: 'none' }}>  
+        <Link className="textDec text-center" to="/Promotion_page" style={{ textDecoration: 'none' }}>  
           <ListItem button style={{display:'flex', justifyContent:'center'}}>
             <ListItemIcon>
               <CardGiftcardIcon className="icon_nav mx-auto" />
@@ -83,7 +84,7 @@ function App() {
           <ListItemText primary="โปรโมชั่น" />  
         </Link>
         <Divider color='white' />
-        <Link className="textDec text-center" to="/Casino_Games" style={{ textDecoration: 'none' }}>
+        <Link className="textDec text-center" to="/Casino_Game" style={{ textDecoration: 'none' }}>
           <ListItem button style={{display:'flex', justifyContent:'center'}}>
             <ListItemIcon>
               <SportsEsportsIcon className="icon_nav mx-auto" />
@@ -103,7 +104,7 @@ function App() {
           <ListItemText primary="ทางเข้าเล่น" />
         </Link>
         <Divider color='white' />
-        <Link className="textDec text-center" to="/InGame" style={{ textDecoration: 'none' }}>
+        {/* <Link className="textDec text-center" to="/InGame" style={{ textDecoration: 'none' }}>
           <ListItem button style={{display:'flex', justifyContent:'center'}}>
             <ListItemIcon>
               <PaidIcon className="icon_nav mx-auto" />
@@ -138,17 +139,17 @@ function App() {
           </ListItem>
           <ListItemText primary="วิเคราะห์บอล" />
         </Link>
-        <Divider color='white' />
+        <Divider color='white' /> */}
         <Link className="textDec text-center" to="/Callcenter" style={{ textDecoration: 'none' }}>
           <ListItem button style={{display:'flex', justifyContent:'center'}}>
             <ListItemIcon>
               <SupportAgentIcon className="icon_nav mx-auto" />
             </ListItemIcon>
           </ListItem>
-          <ListItemText primary="ติดต่อเรา" />
+          <ListItemText primary="ติดต่อสอบถาม" />
         </Link>
         <Divider color='white'/>
-        <Link className="textDec text-center" to="/InGame" style={{ textDecoration: 'none' }}>
+        {/* <Link className="textDec text-center" to="/InGame" style={{ textDecoration: 'none' }}>
           <ListItem button style={{display:'flex', justifyContent:'center'}}>
             <ListItemIcon>
               <SmartToyIcon className="icon_nav mx-auto" />
@@ -165,7 +166,7 @@ function App() {
           </ListItem>
           <ListItemText primary="แจ้งส่งสลิป" />
         </Link>
-        <Divider color='white' />
+        <Divider color='white' /> */}
         
       </List>
       <Divider />
@@ -230,13 +231,23 @@ function App() {
 
         <Routes >
           <Route path='/' element={<Home />} />
-          <Route path='/Register' element={<Register />} />
+
           <Route path='/Promotion_page' element={<Promotion_page />} />
           <Route path='/Callcenter' element={<Callcenter />} />
           <Route path='/Casino_Game' element={<Casino_Game />} />
           <Route path='/InGame' element={<InGame />} />
         </Routes>
       </div>
+      <div className=" text-white w-100 bgcolor1">
+                <div className="row w-100 container mx-auto">
+                    <div className="col-sm-3 p-3">
+                    <img src={logo_new2} className="rounded w-100" />
+                    </div>
+                    <div className="col-sm-9 p-3">
+                    สมาชิกที่สมัครเปิดยูสเซอร์กับทางเว็บ MM88KICKOFF.COM สมัครเว็บ MM88 สามารถร่วมสนุกผ่านเว็บไซต์ได้ทั้งทางคอม PC และโทรศัพท์มือถือระบบ ios,android ซึ่งเว็บไซต์มีระบบรักษาความปลอดภัยที่เชื่อถือได้ เเละมีมาตรฐานสากลระดับโลก ในการรองรับ เล่นพนันออนไลน์ เรามีทีมงานคุณภาพเเละมีออฟฟิตที่ได้มาตรฐานอยู่ในประเทศเพื่อนบ้าน เพื่อตอบสนองความต้องการของนักเสี่ยงโชคทุกท่าน เรามีบริการ Call center 24 ชม. มีช่องทางการติดต่อ ทั้ง โทรศัพท์ Line Livechat ฉะนั้น MM88BET.COM จึงเป็นเว็บพนันออนไลน์ แทงบอลออนไลน์ แทงสเต็ปออนไลน์ แทงคาสิโนออนไลน์ แทงสล๊อตออนไลน์ แทงหวยออนไลน์ แทงล็อตเตอรี่ออนไลน์ แทงเกมส์ออนไลน์ แทงมวยไทยออนไลน์ แทงบาสเก็ตบอลออนไลน์ แทงเทนนิสออนไลน์ ที่ได้รับความนิยมสูงสุด
+                    </div>
+                </div>
+            </div>
       
     </div>
   );

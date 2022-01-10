@@ -4,7 +4,7 @@ import bg2 from "../image/bg2.jpg";
 import bg3 from "../image/bg3.jpg";
 import demo1 from '../image/slide-sa-demo.jpg'
 import button1 from '../image/button-sa.png'
-import logo_new2 from '../image/LOGO_NEW2.png';
+
 import casino1 from '../image/sport-casino-1.png'
 import logo1 from '../image/test1.png';
 import logo2 from '../image/test2.png';
@@ -64,16 +64,7 @@ export default function Home() {
                     </a>
                 </div>
             </div>
-            <div className=" text-white w-100 bgcolor1">
-                <div className="row w-100 container mx-auto">
-                    <div className="col-sm-3 p-3">
-                    <img src={logo_new2} className="rounded w-100" />
-                    </div>
-                    <div className="col-sm-9 p-3">
-                    สมาชิกที่สมัครเปิดยูสเซอร์กับทางเว็บ MM88KICKOFF.COM สมัครเว็บ MM88 สามารถร่วมสนุกผ่านเว็บไซต์ได้ทั้งทางคอม PC และโทรศัพท์มือถือระบบ ios,android ซึ่งเว็บไซต์มีระบบรักษาความปลอดภัยที่เชื่อถือได้ เเละมีมาตรฐานสากลระดับโลก ในการรองรับ เล่นพนันออนไลน์ เรามีทีมงานคุณภาพเเละมีออฟฟิตที่ได้มาตรฐานอยู่ในประเทศเพื่อนบ้าน เพื่อตอบสนองความต้องการของนักเสี่ยงโชคทุกท่าน เรามีบริการ Call center 24 ชม. มีช่องทางการติดต่อ ทั้ง โทรศัพท์ Line Livechat ฉะนั้น MM88BET.COM จึงเป็นเว็บพนันออนไลน์ แทงบอลออนไลน์ แทงสเต็ปออนไลน์ แทงคาสิโนออนไลน์ แทงสล๊อตออนไลน์ แทงหวยออนไลน์ แทงล็อตเตอรี่ออนไลน์ แทงเกมส์ออนไลน์ แทงมวยไทยออนไลน์ แทงบาสเก็ตบอลออนไลน์ แทงเทนนิสออนไลน์ ที่ได้รับความนิยมสูงสุด
-                    </div>
-                </div>
-            </div>
+            
         </div>
     )
 }
