@@ -7,7 +7,7 @@ import Page_C5 from '../image/page_C5.png';
 import Page_C6 from '../image/page_C6.png';
 export default function Casino_Games() {
     return (
-        <div>
+        <div loading="lazy">
             <div className="text-center " style={{ position: "relative" }}>
                     <img src={Page_C1} className="rounded w-100" />
                 

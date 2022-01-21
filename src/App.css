@@ -1,6 +1,9 @@
 .well{
   background-color: rgba(63, 63, 63, 0.4);
 }
+.well2{
+  background-size: contain;
+}
 .in_img{
   position: absolute;
   top: 80%;
@@ -72,6 +75,10 @@
     cursor: pointer;
     border-radius: 5px;
     text-align: center;
+}
+.well2{
+  width: auto;
+  height: 100%;
 }
 }
 
